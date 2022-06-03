@@ -12,11 +12,11 @@ I have good interpersonal skills, am an excellent team worker and very willing t
 I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
 
 ## Skills
-HTML <br />
-CSS/SASS <br />
-JavaScript (Basic) <br />
-Git <br />
-(JOKE) <br />
+- HTML <br />
+- CSS/SASS <br />
+- JavaScript (Basic) <br />
+- Git <br />
+- (JOKE) <br />
 
 ## Code Example
 ```js
@@ -28,7 +28,8 @@ alert( result );
 ```
 
 ## Experience
-entry level
+entry level <br />
+projects: [CV_RRS](https://github.com/D15ND/rsschool-cv/tree/gh-pages)
 
 ## Education
 future grad of rollingscopes school
