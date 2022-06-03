@@ -1,5 +1,7 @@
 # ILLIA VINAHRADAU
 
+<img src="./assets/images/avav.jpeg" alt="drawing" width="200"/>
+
 ## Contacts
 +375447790738 <br />
 Discord: D15ND <br />
