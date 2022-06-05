@@ -3,7 +3,7 @@
 <img src="./assets/images/avav.jpeg" alt="drawing" width="200"/>
 
 ## Contacts
-+375447790738 <br />
++375447123517 <br />
 Discord: D15ND <br />
 GitHub: [D15ND](https://github.com/D15ND). <br />
 
@@ -16,7 +16,6 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 - CSS/SASS <br />
 - JavaScript (Basic) <br />
 - Git <br />
-- (JOKE) <br />
 
 ## Code Example
 ```js
@@ -29,12 +28,10 @@ alert( result );
 
 ## Experience
 entry level <br />
-projects: [CV_RRS](https://github.com/D15ND/rsschool-cv/tree/gh-pages)
+projects: [CV RRS](https://github.com/D15ND/rsschool-cv/tree/gh-pages)
 
 ## Education
 future grad of rollingscopes school
 
 ## English
 A2-B1
-
-
