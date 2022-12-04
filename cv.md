@@ -21,7 +21,7 @@ function usdcny(usd) {
 usdcny(5);
 ```
 ## Education
-* Belarusian Station Technology University
-* Belarusian National Technical University
+* _Belarusian Station Technology University_
+* _Belarusian National Technical University_
 ## English
 B1
