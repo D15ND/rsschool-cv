@@ -1,3 +1,58 @@
-body {
-    background-color: white;
+.body {
+    position: relative;
+    margin: 0 auto;
+	max-width: 1400px;
+}
+
+.menu__anchor {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+
+.pcurs {
+    cursor: pointer;
+}
+
+h1,
+p,
+h2 {
+    line-height: 0.7;
+}
+
+.phone,
+.github,
+.tg,
+.anchor {
+    text-decoration: none;
+}
+
+.container__footer-date {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-bottom: 0px;
+    width: 100px;
+    height: 30px;
+}
+
+.git-logo {
+    margin-bottom: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
 }
