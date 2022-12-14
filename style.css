@@ -31,7 +31,8 @@ h2 {
 .phone,
 .github,
 .tg,
-.anchor {
+.anchor,
+.cv__link {
     text-decoration: none;
 }
 
