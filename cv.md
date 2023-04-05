@@ -5,7 +5,7 @@
 * Telegram: sqwudo
 * GitHub: [D15ND](https://github.com/D15ND "D15ND")
 ## About me
-I am a marketing specialist at a product marketing bureau, specializing in the analysis of product manufacturing and competitor companies.
+Main frontMEN of a nonexistent group.
 ## Skills
 * HTML
 * CSS
@@ -21,7 +21,6 @@ function usdcny(usd) {
 usdcny(5);
 ```
 ## Education
-* _Belarusian Station Technology University_
 * _Belarusian National Technical University_
 ## English
-B1
+A2
