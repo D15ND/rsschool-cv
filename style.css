@@ -197,6 +197,8 @@ html {
   margin-top: 150px;
   width: 700px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects__link {
