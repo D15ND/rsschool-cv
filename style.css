@@ -43,9 +43,18 @@ html {
   color: orange;
 }
 
+.main {
+  .welcome {
+    .wrapper {
+      padding: 0 150px;
+    }
+  }
+}
+
 .maininfo {
   display: flex;
   gap: 90px;
+  margin-bottom: 40px;
 }
 
 .photo {
@@ -85,9 +94,54 @@ html {
   color: red;
 }
 
-.about {
+.about__description {
   font-size: 20px;
   font-weight: 600;
   display: flex;
   text-align: end;
+}
+
+.subtitle {
+  display: flex;
+  background-color: gainsboro;
+  margin-bottom: 5px;
+}
+
+.about__subtitle {
+  justify-content: end;
+}
+
+.education {
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.education__description {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.education__sub_description {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.skills {
+  width: 700px;
+  float: right;
+}
+
+.skills__subtitle {
+  justify-content: flex-end;
+}
+
+.skills__description {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: end;
+}
+
+.code {
+  width: 700px;
+  margin-top: 150px;
 }
