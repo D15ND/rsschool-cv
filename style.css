@@ -144,4 +144,82 @@ html {
 .code {
   width: 700px;
   margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.contacts {
+  width: 700px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.contacts__subtitle {
+  justify-content: end;
+}
+
+.contacts__discord {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: end;
+}
+
+.contacts__telegram {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  text-align: end;
+  color: orange;
+}
+
+.contacts__mobile {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: end;
+  color: orange;
+}
+
+.projects {
+  margin-top: 150px;
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.projects__link {
+  font-size: 20px;
+  text-decoration: none;
+  color: orange;
+}
+
+.footer {
+  .wrapper {
+    background-color: gray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0 15px;
+  }
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.github-img {
+  width: 50px;
+}
+
+.footer__year {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer__rss {
+  display: flex;
+}
+.rs-img {
+  width: 100px;
 }
