@@ -125,7 +125,7 @@ html {
 }
 
 .education {
-  width: 700px;
+  width: 100%;
   margin-bottom: 40px;
 }
 
@@ -140,7 +140,7 @@ html {
 }
 
 .skills {
-  width: 700px;
+  width: 100%;
   float: right;
 }
 
@@ -155,13 +155,13 @@ html {
 }
 
 .code {
-  width: 700px;
+  width: 100%;
   margin-top: 150px;
   margin-bottom: 40px;
 }
 
 .contacts {
-  width: 700px;
+  width: 100%;
   float: right;
   display: flex;
   flex-direction: column;
@@ -170,6 +170,12 @@ html {
 
 .contacts__subtitle {
   justify-content: end;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .contacts__discord {
@@ -181,7 +187,6 @@ html {
 .contacts__telegram {
   font-size: 20px;
   text-decoration: none;
-  color: black;
   text-align: end;
   color: orange;
 }
@@ -195,13 +200,14 @@ html {
 
 .projects {
   margin-top: 150px;
-  width: 700px;
+  width: 100%;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
 }
 
 .projects__link {
+  width: 330px;
   font-size: 20px;
   text-decoration: none;
   color: orange;
