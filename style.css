@@ -57,17 +57,6 @@ html {
   margin-bottom: 40px;
 }
 
-.photo {
-  border-radius: 45%;
-  background-image: url('./images/photo.webp');
-  /* transition: 0.5s ease-in-out; */
-  transition: background-image 0.3s ease;
-}
-
-/* .photo:hover {
-  background-image: url('./images/photo2.jpg');
-} */
-
 .photo-container {
   background-image: url('./images/photo2.jpg');
   background-size: cover;
@@ -77,7 +66,7 @@ html {
   border-radius: 45%;
 }
 
-.photo-container:hover {
+.change__photo {
   background-image: url('./images/photo.webp');
 }
 
