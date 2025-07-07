@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/icons8-cook-office-l-32.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Mr COOKER</title>
 </head>
-<body>
 
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <nav class="navigation">
+        <ul class="navigation__block">
+          <li class="navigation__list">
+            <a href="#my__about" class="navigation__link">About me</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#my__education" class="navigation__link">Education</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#my__skills" class="navigation__link">Skills</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#my__code" class="navigation__link">Code</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#my__contacts" class="navigation__link">Contacts</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#my__projects" class="navigation__link">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="welcome">
+      <div class="wrapper">
+        <div class="maininfo">
+          <div class="photo-container" id="photo-container">
+            <!-- <img src="./images/photo2.jpg" alt="childs photo" class="photo"> -->
+          </div>
+          <div class="maindescription">
+            <h1 class="title">IL<span class="mod-text">YA</span>'s Vi<span class="mod-text">nah</span>radau</h1>
+            <a class="playBtn" id="playBtn" href="#!">Play</a>
+            <audio class="cook__audio" id="cook__audio" src="./images/audio.mp3"></audio>
+            <div class="about" id="my__about">
+              <h2 class="subtitle about__subtitle">About me</h2>
+              <p class="about__description">I want to learn front-end to implement and publish various recipes, especially my
+                specialty, the recipe of which I will share with you in the “code” section. <br>And in general - I bring joy.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="education" id="my__education">
+          <h2 class="subtitle education__subtitle">Education</h2>
+          <p class="education__description">Gluboka State College</p>
+          <p class="education__sub_description">By profession a cook or just a cook</p>
+        </div>
+        <div class="skills" id="my__skills">
+          <h2 class="subtitle skills__subtitle">Skills</h2>
+          <p class="skills__description">I'm great at making pilaf<br>
+          English level: B1</p>
+        </div>
+        <div class="code" id="my__code">
+          <h2 class="subtitle code__subtitle">Code</h2>
+          <code class="code__description">function recipeTranslater() { <br>
+            &nbsp;&nbsp; const pilafRecipeRu = " <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Берём сначала укропу, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Потом кошачью тропу, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25 картошек, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17 мандовошек, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ведро воды и хмель туды, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Охапку дров — и плов готов! <br>
+            &nbsp;&nbsp;" <br>
+            &nbsp;&nbsp; const pilafRecipeEng = " <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Take first the dill, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then the cat trail, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25 potatoes, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17 mandovos, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A bucket of water and hops in there, <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An armful of firewood - and the pilaf is ready! <br>
+            &nbsp;&nbsp;" <br>
+            &nbsp;&nbsp; return pilatfRecipeEng <br>
+          } <br>
+          recipeTranslater();
+          </code>
+        </div>
+        <div class="contacts" id="my__contacts">
+          <h2 class="subtitle contacts__subtitle">Contacts</h2>
+          <div class="contacts__list">
+            <p class="contacts__discord">Discord: D15ND</p>
+            <a href="https://t.me/pilatfrecipe" target="_blank" class="contacts__telegram">Telegram link</a>
+            <a href="tel:+375294455533" class="contacts__mobile">+375294455533</a>
+          </div>
+        </div>
+        <div class="projects" id="my__projects">
+          <h2 class="subtitle projects__subtitle">Projects</h2>
+          <a href="https://github.com/D15ND/my-projects/blob/main/README.md" target="_blank" class="projects__link">Link to github readme list with projects</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__info">
+        <a href="https://github.com/d15nd" target="_blank" class="github">
+          <img src="./images/github-mark.svg" alt="github" class="github-img">
+        </a>
+        <p class="footer__year">2025</p>
+        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank" class="footer__rss">
+          <img src="./images/rs-school-logo.svg" alt="RS-SCHOOL" class="rs-img">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
 </body>
+
 </html>
